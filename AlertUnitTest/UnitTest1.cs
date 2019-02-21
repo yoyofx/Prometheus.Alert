@@ -15,8 +15,7 @@ namespace AlertUnitTest
             {
                 AppId = "chejiatiantianbao",
                 Service = "service399",
-                Url= "http://172.20.12.7:9093/api/v1/alerts"
-                //Url = "http://172.20.12.58:9093/api/v1/alerts"
+                Url = "http://172.20.12.58:9093/api/v1/alerts"
             });
 
             Exception ex = null;
@@ -34,7 +33,7 @@ namespace AlertUnitTest
             Task.Run(async () =>
             {
 
-                for (int i = 0; i < 10; i++)
+                for (int i = 0; i < 5; i++)
                 {
 
                     bool ss = await AlertClient.SendAlertAsync("²âÊÔ±¨´í1", "²ÎÊý:" + i.ToString(), null, ex);

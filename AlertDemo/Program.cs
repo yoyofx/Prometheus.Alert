@@ -14,7 +14,7 @@ namespace AlertDemo
             AlertClient.SetOpation(new AlertOpation
             {
                 AppId = "chejiatiantianbao",
-                Service = "service399",
+                Service = "service3991",
                 Url = "http://172.20.12.58:9093/api/v1/alerts"
             });
 

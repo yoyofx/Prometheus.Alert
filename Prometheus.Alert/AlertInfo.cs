@@ -14,7 +14,7 @@ namespace Prometheus.Alert
 
         public DateTime startsAt { set; get; }
 
-        public DateTime endsAt { set; get; }
+        //public DateTime endsAt { set; get; }
 
         public string generatorURL { set; get; }
 

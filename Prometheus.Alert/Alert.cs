@@ -31,7 +31,7 @@ namespace Prometheus.Alert
         public static async Task<bool> SendAlertAsync(string alertUrl, AlertRequest alertInfo)
         {
             alertInfo.startsAt = DateTime.Now;
-            alertInfo.endsAt = DateTime.Now;
+            //alertInfo.endsAt = DateTime.Now;
 
             string postJson = JsonConvert.SerializeObject(new object[] { alertInfo },
                             new JsonSerializerSettings {  DateTimeZoneHandling = DateTimeZoneHandling.Utc });
