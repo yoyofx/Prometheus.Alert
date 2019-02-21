@@ -8,6 +8,8 @@
     <Copyright>yoyoyfx</Copyright>
     <PackageProjectUrl>http://github.com/maxhzhang1985/Prometheus.Alert</PackageProjectUrl>
     <PackageTags>alert</PackageTags>
+    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
